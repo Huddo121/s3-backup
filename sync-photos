@@ -1,0 +1,2 @@
+#! /bin/sh
+s3cmd sync --exclude '*/.*' --skip-existing --recursive ./backup-links/Pictures s3://mhudson-backup/backups/
